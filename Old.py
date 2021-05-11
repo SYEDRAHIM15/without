@@ -128,7 +128,7 @@ def tlogin():
 		toket = open('login.txt','r')
 		os.system('python2 Syco.py')
 	except (KeyError,IOError):
-		
+		methodlogin() :
 	else:
 		print "[!] Invalid Password"
 		time.sleep(1)
@@ -223,6 +223,6 @@ def login():
 		        print ('[!]Number/User Id/ Password Is Wrong !')
 		        time.sleep(1)
 		        login()
-
-    
+"""
+tlogin()
  
