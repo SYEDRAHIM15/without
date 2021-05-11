@@ -128,7 +128,7 @@ def tlogin():
 		toket = open('login.txt','r')
 		os.system('python2 Syco.py')
 	except (KeyError,IOError):
-		methodlogin()
+		
 	else:
 		print "[!] Invalid Password"
 		time.sleep(1)
@@ -197,8 +197,8 @@ def login():
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
-		SYED('[!] MR- SYED PROGRAMING')
-		SYED('[!] Use a New Facebook Account To Login')
+		('[!] MR- SYED PROGRAMING')
+		('[!] Use a New Facebook Account To Login')
 		print'-------------------------------------'
 		iid=raw_input('[+] Number/Email: ')
 		id=iid.replace(" ","")
@@ -223,6 +223,6 @@ def login():
 		        print ('[!]Number/User Id/ Password Is Wrong !')
 		        time.sleep(1)
 		        login()
-if __na
+
     
  
